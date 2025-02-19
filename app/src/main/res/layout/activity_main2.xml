@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    tools:context=".View.MainActivity">
+    <EditText
+        android:id="@+id/namepers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="this afficher your name de user"/>
+    <EditText
+        android:id="@+id/Agep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="this afficher your name de user"/>
+    <Button
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😊"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"/>
+
+</LinearLayout>
